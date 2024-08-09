@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.producto{
+    width: 100%;
+}
+
+.producto-1{
+    grid-column: 1/5;
+}
+
+.producto-2{
+    grid-column: span 3;
+    grid-row: span 3 ;
+}
+
+.producto-5{
+    grid-column: span 2;
+    
+}
+
+.producto-6{
+    grid-column: span 2;
+}
+
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-producto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+@media screen and (max-width:850px) {
+    .grid-producto{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .grid-producto{
+        grid-template-columns: 1fr;
+    }
+}

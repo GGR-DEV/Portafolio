@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sitioweb.css">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+  <div class="video">
+    <video src="background.mp4" autoplay muted loop></video>
+  </div>
+
+  <header class="link">
+    <a href="sitioweb.html" class="logo">
+      <img src="logo.png" height="100vh" alt="" class="img">
+    </a>
+
+    <div class="link__me">
+      <ul class="links__me">
+        <li>
+          <a class="links" href="#inicio">Inicio</a class="links">
+        </li>
+        <li>
+          <a class="links" href="#about-me">Sobre m&iacute;</a class="links">
+        </li>
+        <li>
+          <a class="links" href="#frontend">frontend</a class="links">
+        </li>
+        <li>
+          <a class="links" href="#contacto">Contacto</a class="links">
+        </li>
+      </ul>
+    </div>
+
+    <div class="link__open-menu">
+        <label for="menu">
+          <img src="menu_lineas.png" alt="">
+        </label>
+    </div>
+
+    <input type="checkbox" id="menu">
+    <div class="link__close-menu">
+      <label for="menu">
+          <img src="menu_cruz.png" alt="" class="cruz">
+      </label>
+
+      <section id="contact">
+        <form action="#" autocomplete="off" class="main__about-me--form">
+          <label for=""> <input type="text" required> Your Name</label>
+          <label for=""><input type="email" required>Your Mail</label>
+          <label for=""><textarea name="" id="" cols="30" rows="5 required"></textarea>Your Message</label>
+          <label for=""><input type="submit"></label>
+        </form>
+
+        <a href="#">Gonzagrolon@gmail.com</a>
+        <a href="#">+54 2346 41-1201</a>
+    </div>
+  </header>
+
+  
+
+  <main class="main">
+    <section class="main__info" id="inicio">
+      <h1 class="main__info--h1">Gonzalo Rolon</h1>
+      <h2 class="main__info--h2">Diseñador Web</h2>
+    </section>
+
+    <section id="about-me">
+      <h3 class="about-me__h3">about me</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sed excepturi adipisci accusamus sequi,
+        aperiam expedita enim ducimus possimus quia porro impedit eius, nemo, nostrum cumque hic ut quidem earum.</p>
+    </section>
+
+
+    <section id="frontend">
+      <div>
+        <a href="#">
+          <img src="front/3column.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/nft.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/ordersummary.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/productpreview.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/profilecard.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/qrcomponent.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/resultssumary.png">
+        </a>
+      </div>
+
+      <div>
+        <a href="#">
+          <img src="front/statspreview.png">
+        </a>
+      </div>
+    </section>
+
+
+    <section id="contacto">
+      <form action="contactos.php" autocomplete="off" class="main__about-me--form">
+        <label for=""> <input type="text" name="name" required> Your Name</label>
+        <label for=""><input type="email" name="mail" required>Your Mail</label>
+        <label for=""> <input type="text" name="asunto" required> Asunto</label>
+        <label for=""><textarea name="mensaje" id="" cols="30" rows="5 required"></textarea>Your Message</label>
+        <label for=""><input type="submit"></label>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="redes">
+    <ul class="redes__ul">
+      <li>
+        <a class="links" href="#">Linkedln</a class="links">
+      </li>
+      <li>
+        <a class="links" href="#">Email</a class="links">
+      </li>
+      <li>
+        <a class="links" href="#">GitHub</a class="links">
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
